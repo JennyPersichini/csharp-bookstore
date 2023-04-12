@@ -4,38 +4,38 @@
 Console.Write("Inserire il titolo del libro: ");
 string titoloUtente = Console.ReadLine();
 
-Console.WriteLine("Inserire l'autore del libro: ");
+Console.Write("Inserire l'autore del libro: ");
 string autoreUtente = Console.ReadLine();
 
-Console.WriteLine("Inserire il codice identificativo del libro (ISBN): ");
+Console.Write("Inserire il codice identificativo del libro (ISBN): ");
 string isbnUtente = Console.ReadLine();
 
-Console.WriteLine("Inserire il numero di pagine del libro: ");
+Console.Write("Inserire il numero di pagine del libro: ");
 int numeroPagineUtente = int.Parse(Console.ReadLine());
 
-Console.WriteLine("Inserire il peso del libro (in grammi): ");
+Console.Write("Inserire il peso del libro (in grammi): ");
 int pesoLibroUtente = int.Parse(Console.ReadLine());
 
-Console.WriteLine("Inserire la larghezza del libro (in cm): ");
+Console.Write("Inserire la larghezza del libro (in cm): ");
 double larghezzaLibroUtente = double.Parse(Console.ReadLine());
 
-Console.WriteLine("Inserire l'altezza del libro (in cm): ");
+Console.Write("Inserire l'altezza del libro (in cm): ");
 double altezzaLibroUtente = double.Parse(Console.ReadLine());
 
-Console.WriteLine("Inserire la profondità del libro (in cm): ");
+Console.Write("Inserire la profondità del libro (in cm): ");
 double profonditaLibroUtente = double.Parse(Console.ReadLine());
 
-Console.WriteLine("Inserire il numero totali di recensioni presenti sul sito: ");
-int numeroRecensioniUtente = int.Parse(Console.ReadLine());
+Console.Write("Inserire il numero totali di recensioni presenti sul sito: ");
+int numeroRecensioniUtente = double.Parse(Console.ReadLine());
 
-Console.WriteLine("Inserire la valutazione media delle recensioni presenti sul sito: ");
+Console.Write("Inserire la valutazione media delle recensioni presenti sul sito: ");
 double valutazioneMediaUtente = double.Parse(Console.ReadLine());
 int maxValutazione = 5;
 
-Console.WriteLine("È disponibile la versione kindle del libro? Scrivere si o no");
+Console.Write("È disponibile la versione kindle del libro? Scrivere si o no");
 string versioneKindleUtente = Console.ReadLine();
 
-Console.WriteLine("È disponibile la copertina flessible del libro? Scrivere si o no");
+Console.Write("È disponibile la copertina flessible del libro? Scrivere si o no");
 string copertinaFlessibileUtente = Console.ReadLine();
 
 
