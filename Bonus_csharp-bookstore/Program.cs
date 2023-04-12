@@ -29,7 +29,7 @@ Console.Write("Inserire il numero totali di recensioni presenti sul sito: ");
 int numeroRecensioniUtente = double.Parse(Console.ReadLine());
 
 Console.Write("Inserire la valutazione media delle recensioni presenti sul sito: ");
-double valutazioneMediaUtente = double.Parse(Console.ReadLine());
+double valutazioneMediaUtente = int.Parse(Console.ReadLine());
 int maxValutazione = 5;
 
 Console.Write("È disponibile la versione kindle del libro? Scrivere si o no");
